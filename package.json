@@ -1,0 +1,26 @@
+{
+  "name": "aps-sample",
+  "version": "1.0.0",
+  "description": "A Autodesk plateform services demo sample",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "APS",
+    "Autodesk"
+  ],
+  "author": "Daniel Hsieh",
+  "license": "ISC",
+  "dependencies": {
+    "@aps_sdk/authentication": "^1.0.0",
+    "@aps_sdk/model-derivative": "^1.0.0",
+    "@aps_sdk/oss": "^1.0.1",
+    "@types/forge-viewer": "^7.89.1",
+    "connect-timeout": "^1.9.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-formidable": "^1.2.0"
+  }
+}
